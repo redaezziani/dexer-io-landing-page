@@ -9,7 +9,7 @@ interface PricingCardProps {
 const PricingCard = ({ className, children }: PricingCardProps) => {
     return (
         <section
-            className={cn("w-full bg-gradient-to-b from-red-700/15 to-transparent aspect-[9/14]  p-2 col-span-1 border rounded-lg border-red-700/20", className)}
+            className={cn("w-full   aspect-[9/12]  p-2 col-span-1 border rounded-lg border-slate-400/35", className)}
         >
             {children}
         </section>
